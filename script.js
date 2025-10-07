@@ -116,7 +116,6 @@ const addBtnsListeners = () => {
 
 }
 
-
 const generateStep = () => {
 
     const randomStep = Math.floor((Math.random() * 4) + 1);
@@ -192,10 +191,6 @@ const animateSteps = async () => {
         
     }, 4000);
 }
-
-
-
-
 
 const clearEventListeners = () => {
     lightBtns.forEach((btn, index) => {
